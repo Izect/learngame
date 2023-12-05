@@ -14,8 +14,6 @@ namespace Learning_Game
     public partial class frm_puzzle : Form
     {
         
-
-        
         List<PictureBox> picboxlist = new List<PictureBox>();
         List<Bitmap> images = new List<Bitmap>();
        

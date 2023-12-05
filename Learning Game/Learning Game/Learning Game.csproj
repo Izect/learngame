@@ -95,6 +95,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Puzzle.resx">
       <DependentUpon>Puzzle.cs</DependentUpon>
@@ -114,6 +115,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundCastles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundColorDesert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundCastles1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundColorDesert1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundColorFall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundColorForest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundColorGrass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundDesert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundEmpty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundForest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudLayer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudLayer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudLayerB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudLayerB2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groundLayer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\groundLayer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hillsLarge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountainA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountainB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountainC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountains.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spritesheet_default.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

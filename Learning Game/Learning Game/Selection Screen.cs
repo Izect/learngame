@@ -37,5 +37,7 @@ namespace Learning_Game
             Puzzle.Show();
             this.Hide();
         }
+
+       
     }
 }
